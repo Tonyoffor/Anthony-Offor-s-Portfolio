@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/style.css">
+    <title>Anthony Offor's Project Portfolio</title>
+</head>
+
+<body>
+
+<!-- =Make sure that the id's and classes here match up with those in css -->
+<!-- class has a lower specificity to id which means if you give an element both in html; in css id coded elememts will have greater importance and appear first  -->
+<!-- = class uses .content format in css while id uses #content format -->
+    <header class="header">
+        <h1>Anthony Offor</h1>
+        
+        <nav id="nav"> 
+                    <a href="#about-me" alt="about-me"> About Me</a>
+                    <a href="#my-work" alt="my-work">My Work</a>
+                    <a href="#contact-me" alt="contact-me">Contact Me</a>
+        </nav>
+    </header>
+
+   
+
+<!-- = class for nav is navabout, navwork, navcontact  -->
+
+    <main class="content">
+       
+        <a href="#about-me"> <img src="/assets/ProfilePicture.png" id="aboutimg"  /></a>
+        <section id="about-me" class="about-me">
+            <!-- Look at display flex  -->
+            <h2>About Me</h2>
+           
+            
+            <p>
+             My Name is Anthony Offor, A young professional with a background in Environmental Studies and a Masters in Environemntal Science. 
+             <br><br>
+             I decided to transition to coding because I believe I could be a greater benefit to society in this industry than in the environemntal sector.
+            </p>
+        </section>
+        <br>
+        <a href="#my-work"> <img src="/assets/myworkspic.png" id="workimg" alt="my-works" /></a>
+        <section id="my-work" class="my-work">
+            
+           
+            <h2>My Work</h2>
+            
+            <p>
+                This section is a collecion of all my works so far, it might be small and empty now but give it a few years and you will be amazed at what I can do.
+                <div class="works">
+                <a id="Work1" href="./assets/Work1.png"> <img src="/assets/Work1.png"/></a>
+               <br>
+               <a class="Work2" href="./assets/Work2.png"> <img src="/assets/Work2.png"/></a>
+               <br>
+               <a class="Work3" href="./assets/Work3.png"> <img src="/assets/Work3.png"/></a>
+               <br>
+               <a class="Work4" href="./assets/Work4.png"> <img src="/assets/Work4.png"/></a>
+                
+            
+            </p>
+        </section>
+    </main>
+    <Br>
+    <a href="#contact-me"> <img src="/assets/contactme.png" id="contactimg" alt="contact-me"/></a>
+    <footer id="contact-me" class="contact-me">    
+        <div class="title">  
+        <h2>Contact Me</h2>
+    </div> 
+            <p>
+            <div>Name: Anthony Offor</div>
+              <div>  Linkedin: <a href="https://www.linkedin.com/in/anthony-offor/" alt="contact-me"> https://www.linkedin.com/in/anthony-offor/ </a> </div>
+                <div>Phone Number: 289-700-7853</div>
+                <div> Email: tonyc.offor@gmail.com</div>
+            </p>
+        </section>
+    </footer>
+
+    
+    
+</body>
+
+
+<!-- -WHEN I am presented with the developer's first application
+THEN that application's image should be larger in size than the others
+
+WHEN I click on the images of the applications
+THEN I am taken to that deployed application
+
+WHEN I resize the page or view the site on various screens and devices
+THEN I am presented with a responsive layout that adapts to my viewport -->
