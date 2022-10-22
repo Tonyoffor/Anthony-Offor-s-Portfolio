@@ -110,7 +110,7 @@ h2{
 }
 
 img{
-    width: 60%;
+    width: 50%;
     border-radius: 20%;
     transition: width 2s 1s;
 }
@@ -118,7 +118,7 @@ img{
 /*  -WHEN I am presented with the developer's first application
 THEN that application's image should be larger in size than the others 
 
-I was not sure exactly 
+I was not sure exactly what you meant hear so I decided to add to affect below; this way when the Work 1 is "selected" it is larfer than others
  */
 
 
