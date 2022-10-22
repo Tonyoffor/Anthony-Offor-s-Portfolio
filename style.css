@@ -98,21 +98,35 @@ h2{
 
 #aboutimg{
     width: 30%;
-    border-radius: 20%;
+    border-radius: 100%;
 }
 #workimg{
     width: 30%;
-    border-radius: 20%;
+    border-radius: 100%;
 }
 #contactimg{
     width: 30%;
-    border-radius: 20%;
+    border-radius: 100%;
 }
 
 img{
-    width: 65%;
+    width: 60%;
     border-radius: 20%;
+    transition: width 2s 1s;
 }
+
+/*  -WHEN I am presented with the developer's first application
+THEN that application's image should be larger in size than the others 
+
+I was not sure exactly 
+ */
+
+
+img:hover{
+   width: 100%;
+}
+ 
+
 
 /*  
 list-style-type:circle;
