@@ -22,15 +22,15 @@
         </nav>
     </header>
 
-   
 
+    
 <!-- = class for nav is navabout, navwork, navcontact  -->
 
     <main class="content">
        
         <a href="#about-me"> <img src="/assets/ProfilePicture.png" id="aboutimg"  /></a>
         <section id="about-me" class="about-me">
-            <!-- Look at display flex  -->
+            
             <h2>About Me</h2>
            
             
@@ -52,11 +52,11 @@
                 <div class="works">
                 <a id="Work1" href="./assets/Work1.png"> <img src="/assets/Work1.png"/></a>
                <br>
-               <a class="Work2" href="./assets/Work2.png"> <img src="/assets/Work2.png"/></a>
+               <a class="Work2" href="/assets/Work2.png"> <img src="/assets/Work2.png"/></a>
                <br>
-               <a class="Work3" href="./assets/Work3.png"> <img src="/assets/Work3.png"/></a>
+               <a class="Work3" href="/assets/Work3.png"> <img src="/assets/Work3.png"/></a>
                <br>
-               <a class="Work4" href="./assets/Work4.png"> <img src="/assets/Work4.png"/></a>
+               <a class="Work4" href="/assets/Work4.png"> <img src="/assets/Work4.png"/></a>
                 
             
             </p>
@@ -82,8 +82,19 @@
 </body>
 
 
-<!-- -WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
+<!--  
+    GIVEN I need to sample a potential employee's previous work
+WHEN I load their portfolio
+THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them (Done)
+
+WHEN I click one of the links in the navigation
+THEN the UI scrolls to the corresponding section (Done)
+
+WHEN I click on the link to the section about their work
+THEN the UI scrolls to a section with titled images of the developer's applications (Done)
+    
+WHEN I am presented with the developer's first application
+THEN that application's image should be larger in size than the others (Done)
 
 WHEN I click on the images of the applications
 THEN I am taken to that deployed application  (Done)
