@@ -132,14 +132,23 @@ img:hover{
    width: 100%;                     
 }
  
-
+@media screen and (min-width: 787px) {
+    .content {
+         flex-direction: row;
+    }
+}
+@media screen and (max-width: 786px) {
+    .content{
+       flex-direction: column;
+   }
+}
 
 
 
 /* 
 
 @media screen and (max-width: 786px) {
-     {
+     .content{
         flex-direction: column;
     }
 
@@ -153,7 +162,7 @@ img:hover{
 
 /* 
 @media screen and (min-width: 787px) {
-    {
+   .content {
         flex-direction: row;
     }
 
