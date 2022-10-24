@@ -5,8 +5,7 @@ This website is a breakdown of my portfilo, it has all the works and data since 
 The nav bar has fully funcitioning links that take you to the respective sections of the project. In the my works section, all four work boxes grow in size when you hover over them and take you to a page where the image is larger in size. In the contact section you will find my Linkedin profile link which takes you to my actual profile.
 
 
-
-
+![FinalProduct](/assets/Images/FinalProduct.png)
 
 
 Github Repo: https://github.com/Tonyoffor/Module-2-Challenge
