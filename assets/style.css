@@ -1,3 +1,9 @@
+:root{
+--BackgroundColor: #4682B4; 
+--SectionbackgroundColor: #DAA520;
+--SectionShadow: #aaaaaa; 
+}
+
 header{
     background-color: wheat;
     display:block;
@@ -7,7 +13,7 @@ header{
 }
 
 body{
-    background-color: steelblue;
+    background-color: var(--BackgroundColor);
     flex-direction: column;
 }
 
@@ -39,16 +45,16 @@ nav a {
 }
   
 nav a:hover{
-    background-color: #aaaaaa;
+    background-color: var(--SectionShadow);
 }
 
 h2{
     padding: 40px;
   text-align:left;
-  background:steelblue;
+  background: var(--BackgroundColor);
   color:black;
   text-align: center;
-  border-radius: 50px 50px 0px 0px;
+  border-radius: 50px 50px 50px 50px;
 }
 
 #about-me{
@@ -57,9 +63,9 @@ h2{
     border-radius: 50px;
     padding: 10px;
     flex: 0 0 300px;
-    background: goldenrod;
+    background: var(--SectionbackgroundColor);
     width: 60%;
-    box-shadow: 10px 10px 5px #aaaaaa;
+    box-shadow: 10px 10px 5px var(--SectionShadow);
     margin: 0 auto;
     display: inline-block;
     font-size: large;
@@ -71,9 +77,9 @@ h2{
     border-radius: 50px;
     padding: 10px;
     flex: 0 0 300px;
-    background: goldenrod;
+    background: var(--SectionbackgroundColor);
     width: 60%;
-    box-shadow: 10px 10px 5px #aaaaaa;
+    box-shadow: 10px 10px 5px var(--SectionShadow);
     margin: 0 auto;
     display: inline-block;
     font-size: larger;
@@ -85,11 +91,11 @@ h2{
     border-radius: 50px;
     padding: 10px;
     flex: 0 0 300px;
-    box-shadow: 10px 10px 5px #aaaaaa;
+    box-shadow: 10px 10px 5px var(--SectionShadow);
     margin: 0 auto;
     width: 60%;
     position:-webkit-sticky;
-  background: goldenrod;
+  background: var(--SectionbackgroundColor);
   top: 30px;
   left: 30px;
   display: inline-block;
@@ -123,36 +129,41 @@ I was not sure exactly what you meant hear so I decided to add to affect below; 
 
 
 img:hover{
-   width: 100%;
+   width: 100%;                     
 }
  
 
 
-/*  
-list-style-type:circle;
-    
-    margin-left: 25px;
-    padding: auto;
-    
-    flex-direction: column;
+
+
+/* 
+
+@media screen and (max-width: 786px) {
+     {
+        flex-direction: column;
+    }
+
+    .imageWrapper {
+        width: auto;
+    }
+}
+
+/* On screens that are 787 or MORE */
+/* This sets the WORK images back to their original positions. */
+
+/* 
+@media screen and (min-width: 787px) {
+    {
+        flex-direction: row;
+    }
+
+    .imageWrapper {
+        width: 48%;
+    }
+
+
+/*  flex-direction: column;
     flex-wrap: wrap;*/
-
-
-
-
-/*  
-.header img {
-    height: 320px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-size: cover;
- background-position: center;
- background-image: url(/assets/Header\ background\ image.png)
-<img src="/assets/Header background image.png" alt="Header-background-img" />
-    
-        }*/
-        
-
 
  /* =add a flex-wrap to order how things will move in order when window size is changed which means I have to learn how to order my about me section*/
  /* =add space-evenly/between to both the nav and contact me sections */
