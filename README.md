@@ -10,6 +10,7 @@ The nav bar has fully funcitioning links that take you to the respective section
 
 
 Github Repo: https://github.com/Tonyoffor/Module-2-Challenge
+Deployed Link: 
 
 
-. A readme with three items is required. The readme should include a description (not the user story),  a screenshot,  and the deployed link.md file.
+ A readme with three items is required. The readme should include a description (not the user story),  a screenshot,  and the deployed link.md file.
