@@ -8,9 +8,9 @@ The nav bar has fully funcitioning links that take you to the respective section
 ![FinalProduct](/assets/Images/FinalProduct.png)
 
 
-Github Repo: https://github.com/Tonyoffor/Module-2-Challenge
+Github Repo: https://github.com/Tonyoffor/Anthony-Offor-s-Portfolio
 
-Deployed Link: https://tonyoffor.github.io/Module-2-Challenge/ 
+Deployed Link: https://tonyoffor.github.io/Anthony-Offor-s-Portfolio/
 
 
  A readme with three items is required. The readme should include a description (not the user story),  a screenshot,  and the deployed link.md file.
