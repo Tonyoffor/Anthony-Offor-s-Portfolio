@@ -143,6 +143,12 @@ img:hover{
    }
 }
 
+@media screen and (min-width: 787px){
+#contact-me{
+    flex-direction: row;
+}   
+}
+
 
 
 /* 
